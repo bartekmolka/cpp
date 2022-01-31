@@ -4,7 +4,7 @@
 
 ---
 
-#### Dyrektywa #include
+### Dyrektywa #include
 
 Umożliwia dołączanie bibliotek do języka np. string, cmath, time.h, cstdlib itd.
 
@@ -14,7 +14,7 @@ Przykład użycia:
 #include <time.h>
 ```
 
-#### Przestrzenie nazw
+### Przestrzenie nazw
 
 Można zredukować kod z:
 
@@ -34,7 +34,7 @@ to wszystko dzięki umieszczeniu polecenia:
 using namespace std;
 ```
 
-#### Funkcja główna
+### Funkcja główna
 
 W niej odpala się program, wszystko co się w niej znajduje uruchomi się. Na jej końcu znajduje się polecenie:
 
@@ -44,7 +44,7 @@ return 0;
 
 Jeżeli zwraca ona 0, to program wykonał się poprawnie.
 
-#### Typy zmiennych
+### Typy zmiennych
 
 Na początku zaznaczę, że jest ich dużo ale wymienię tylko te z którymi się możesz spotkać.
 
@@ -58,7 +58,7 @@ Na początku zaznaczę, że jest ich dużo ale wymienię tylko te z którymi si�
 
 - za pomocą bibliotek można dołączyć jeszcze typy takie jak string czy vector (tablice dynamiczne)
 
-#### Polecenia cout i cin biblioteki iostream
+### Polecenia cout i cin biblioteki iostream
 
 Polecenie cout umożliwia 'wyświetlenie informacji.
 
