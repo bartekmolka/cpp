@@ -1,0 +1,2 @@
+# cpp
+krotka dokumentacja
