@@ -63,7 +63,7 @@ Na początku zaznaczę, że jest ich dużo ale wymienię tylko te z którymi si�
 Polecenie cout umożliwia 'wyświetlenie informacji.
 
 ```cpp
-cout << "Hej Andzia";
+cout << "Hej";
 ```
 
 Polecenie cin umożliwia wrzucenie danych.
