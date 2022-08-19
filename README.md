@@ -77,3 +77,105 @@ cout << "Oto wartość twojej zmiennej: " << x;
 ```
 
 Aby zapamiętać co dana instrukcja robi warto zauważyc kierunki strzałek.
+
+### Komentarze w C++
+
+Komentarz jednolinijkowy:
+
+```cpp
+cout << "Test działania komentarza"; // To jest komentarz
+```
+
+Komentarz wielolinijkowy:
+
+```cpp
+cout << "Test działania komentarza"; /* To jest komentarz
+ wielolinijkowy */
+```
+
+### Operacje matematyczne
+
+Podstawowe z nich to:
+
+- dodawanie +
+
+- odejmowanie -
+
+- mnożenie *
+
+- dzielenie /
+
+- modulo % (reszta z dzielenia liczby przez 2)
+
+#### Zapisy skrócone
+
+Zamiast:
+
+```cpp
+x = x + 1
+```
+
+Można zapisać
+
+```cpp
+x += 1
+```
+
+Oraz analogicznie z pozostałymi operatorami
+
+#### Inkrementacja i dekrementacja
+
+Występują ich łącznie 4 rodzaje.
+
+Preinkrementacja to zwiększenie wartości zmiennej o jeden przed wykonaniem polecenia, a postinkrementacja to zwiększenie wartości o jeden po wykonaniu polecenia. 
+
+```cpp
+int x = 0;
+cout << ++x; // wyświetli się 1
+int a = 0;
+cout << a++;// wyświetli się 0
+```
+
+Predekrementacja to zmniejszenie wartości zmiennej o jeden przed wykonaniem polecenia, a postdekrementacja to zmniejszenie wartości o jeden po wykonaniu polecenia.
+
+```cpp
+int x = 1;
+cout << --x; // wyświetli się 0
+int a = 1;
+cout << a--;// wyświetli się 1
+```
+
+### Operatory porównania
+
+Służa do, jak sama nazwa wskazuje, porównywania wartości zmiennych w celu np wykonania konkretnego fragmentu kodu. 
+
+| Operator | Krótki opis                         |
+| -------- | ----------------------------------- |
+| >        | ... jest większe od ...             |
+| >=       | ... jest większe lub równe niż ...  |
+| <        | ... jest mniejsze od ...            |
+| <=       | ... jest mniejsze lub równe niż ... |
+| ==       | ... jest równe ...                  |
+| !=       | ... jest różne od ...               |
+
+```cpp
+int x = 1;
+int a = 1;
+bool result = a < x; 
+cout << result;/* wyświetli się 0 (false), gdyż zmienna a jest tej samej 
+wartości co zmienna x */
+```
+
+### Instrukcja warunkowa If
+
+Pozwala ona wykonać pewien fragment kodu na podstawie danego warunku
+
+```cpp
+int wiek;
+cin >> wiek;
+if( wiek >= 18 )
+{
+    cout << "Jesteś pełnoletni" << endl;
+}
+return 0;
+```
